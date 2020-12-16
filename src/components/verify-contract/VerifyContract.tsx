@@ -97,8 +97,6 @@ export const VerifyContract: React.FC = () => {
 
     const onSubmit = async (e: any) => {
         e.preventDefault();
-        let files = [];
-        files = await remixClient.fetchLastCompilation();
         dispatch({ type: 'set_error', payload: null} );
         dispatchContext({ type: 'set_verification_result', payload: null} );
         dispatch({ type: 'set_loading', payload: true })
@@ -108,8 +106,8 @@ export const VerifyContract: React.FC = () => {
         formData.append('address', state.address);
         formData.append('chain', state.chain.id.toString());
 
-        if (files.length > 0) {
-            files.forEach((file: any) => formData.append('files', file));
+        if (state.files.length > 0) {
+            state.files.forEach((file: any) => formData.append('files', file));
         }
 
         const response: VerificationResult = await remixClient.verifyByForm(formData)

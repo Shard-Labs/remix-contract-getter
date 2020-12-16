@@ -83,3 +83,17 @@ Inside a console run:
 remix.exeCurrent()
 ```
 Note: javascript file should be in focus.
+
+### VS Code Developemnt
+```json
+{
+  "name": "sorcify-dev",
+  "displayName": "Sourcify development",
+  "methods": [],
+  "version": "0.0.1-dev",
+  "url": "/home/0mkar/Karma/remix-sourcify/dist",
+  "description": "Source metadata fetcher and validator",
+  "icon": "https://raw.githubusercontent.com/protofire/solhint/master/solhint-icon.png",
+  "location": "sidePanel"
+}
+```
