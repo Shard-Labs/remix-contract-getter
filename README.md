@@ -91,9 +91,9 @@ Note: javascript file should be in focus.
   "displayName": "Sourcify development",
   "methods": [],
   "version": "0.0.1-dev",
-  "url": "/home/0mkar/Karma/remix-sourcify/dist",
+  "url": "/home/remix-sourcify/dist",
   "description": "Source metadata fetcher and validator",
-  "icon": "https://raw.githubusercontent.com/protofire/solhint/master/solhint-icon.png",
+  "icon": "https://raw.githubusercontent.com/Shard-Labs/remix-contract-getter/master/public/sourcify.png",
   "location": "sidePanel"
 }
 ```
