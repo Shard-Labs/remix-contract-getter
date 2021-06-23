@@ -10,5 +10,6 @@ export const chainOptions = [
   { value: "rinkeby", label: "Rinkeby", id: 4 },
   { value: "kovan", label: "Kovan", id: 42 },
   { value: "goerli", label: "Görli", id: 5 },
-  { value: "xdai", label: "xDAI", id: 100 }
+  { value: "xdai", label: "xDAI", id: 100 },
+  { value: "sokol", label: "Sokol", id: 77 }
 ];
